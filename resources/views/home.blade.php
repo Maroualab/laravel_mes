@@ -6,6 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    Home
+    <h1>Admin Dashboard</h1>
+    <div id="user-count"></div>
+
+    <script>
+     
+    </script>
 </body>
 </html>

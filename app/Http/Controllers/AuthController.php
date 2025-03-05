@@ -15,6 +15,7 @@ class AuthController extends Controller
         return view('auth.login');
     }
     public function signUp(Request $request){
+
         $validated = $request->validate([
             'name' => 'required|string|max:255',
             'email' => 'required|string|email|max:255|unique:users',
@@ -31,6 +32,7 @@ class AuthController extends Controller
     
         return redirect('/');
         }
+
         public function signIn(Request $request){
             $validatedData = $request->validate([
                 'email'=>'required|email',
@@ -45,6 +47,5 @@ class AuthController extends Controller
                 return redirect('/login')->with('message', 'wrong credentials');
             }
         }
-
 
 }
