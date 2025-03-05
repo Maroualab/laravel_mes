@@ -8,9 +8,14 @@
 <body>
     <h1>Admin Dashboard</h1>
     <div id="user-count"></div>
+<!-- sql query for count :  SELECT count(*) FROM `users`  ; -->
+<!-- sql query for logIn : sql query for login  -->
+<!-- sql query for signUp :  sql query for singup -->
 
-    <script>
-     
-    </script>
+
 </body>
+<script>
+    
+</script>
 </html>
+
